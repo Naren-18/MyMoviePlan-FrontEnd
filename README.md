@@ -18,3 +18,9 @@ MEDICARE is a full-stack web application built with React.js and Spring Boot. It
 cd medicare-backend
 mvn clean install
 mvn spring-boot:run
+
+### Frontend (React)
+```bash
+cd medicare-frontend  
+npm install
+npm start

@@ -11,16 +11,19 @@ MEDICARE is a full-stack web application built with React.js and Spring Boot. It
 - 📦 **Inventory Management** - Real-time stock updates and low-stock alerts
 - 💳 **Secure Checkout** - Integrated payment processing with order confirmation
 
-## 🛠️ Installation
-
-### Backend (Spring Boot)
+## 🗂️ Project Structure
 ```bash
-cd medicare-backend
-mvn clean install
-mvn spring-boot:run
-
-### Frontend (React)
-```bash
-cd medicare-frontend  
-npm install
-npm start
+medicare/
+├── medicare-backend/ # Spring Boot backend (APIs, authentication, inventory, orders)
+│ ├── src/ # Java source code
+│ ├── pom.xml # Maven dependencies
+│ └── ...
+│
+├── medicare-frontend/ # React.js frontend (UI, components, routing)
+│ ├── public/ # Static files
+│ ├── src/ # React components, pages, services
+│ ├── package.json # Frontend dependencies
+│ └── ...
+│
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules
